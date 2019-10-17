@@ -27,13 +27,13 @@ const IndexPage = ({data}) => (
         <h3>{data.allVimeoVideo.totalCount}</h3>
       </div>
     </Link>
-    <Link to="/digitalisering">
+    <Link to="/mastertape">
       <div className={style.countCard} style={{ backgroundColor: `#eb91ba` }}>
         <h2>Mastertape</h2>
         <h3>{data.allVideoproduksjonDigitaliseringMastertapeCsv.totalCount}</h3>
       </div>
     </Link>
-    <Link to="/digitalisering">
+    <Link to="/tivoli">
       <div className={style.countCard} style={{ backgroundColor: `#ec6915` }}>
         <h2>Tivoli</h2>
         <h3>{data.allVideoproduksjonDigitaliseringTivoliCsv.totalCount}</h3>
