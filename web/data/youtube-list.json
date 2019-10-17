@@ -1,0 +1,1961 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/91AzrQKOvPsbGEWP5ECn4q2POuY\"",
+ "nextPageToken": "CDIQAA",
+ "pageInfo": {
+  "totalResults": 270,
+  "resultsPerPage": 50
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/p-ma_p_q5forZuzXZfKsh8nily4\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmVyOWlKbElwZmdR",
+   "snippet": {
+    "publishedAt": "2019-09-04T12:21:36.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Spesialsamlingene ved Universitetet. Bergens best bevarte hemmelighet?",
+    "description": "Brev, bøker, kart, dokumenter, bilder, ord. Samlingene spenner over flere hundre års norsk historie.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/er9iJlIpfgQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/er9iJlIpfgQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/er9iJlIpfgQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/er9iJlIpfgQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/er9iJlIpfgQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "er9iJlIpfgQ"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/kcwf-s50weUKjG_ZdIU6G27JIbM\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LlB6enpOQjBoNFdB",
+   "snippet": {
+    "publishedAt": "2019-08-30T13:03:53.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Doktorpromosjon ved Universitetet i Bergen - 30/8-2019",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/PzzzNB0h4WA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/PzzzNB0h4WA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/PzzzNB0h4WA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/PzzzNB0h4WA/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/PzzzNB0h4WA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 1,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "PzzzNB0h4WA"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/qIrbgfBWcg0LOZd1lwHAuf-bvYY\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LnJfVEd0T0Q2RDA0",
+   "snippet": {
+    "publishedAt": "2019-08-29T19:56:23.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Universitetsstyremøte 29.08.2019",
+    "description": "Saksliste finnes på https://www.uib.no/ledelsen/129063/universitetsstyrem%C3%B8te-29-august-2019",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/r_TGtOD6D04/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/r_TGtOD6D04/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/r_TGtOD6D04/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 2,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "r_TGtOD6D04"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/tkRxUsS6LpenHkmpj2PhitI6mOs\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmdrVmxDU2prUl9V",
+   "snippet": {
+    "publishedAt": "2019-09-04T14:38:57.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Prisvinnersamtalen 2019: What Remains to be Discovered?",
+    "description": "En prisvinner fra hver av de tre norske vitenskapsprisene har blitt invitert til Universitetet i Bergen for å diskutere utfordringer som vårt samfunn står ovenfor og hva vi bør forske på innen prisenes fagområder for å møte disse utfordringene.\n\nDe tre prisvinnerne er filosof Onora O'Neill, astrokjemiker Ewine van Dishoeck og matematiker S.R. Srinivasa Varadhan. Journalist Vivienne Parry vil moderere samtalen.\n\nPrisvinnersamtalen finner sted i Universitetsaulaen onsdag 4. september 2019 kl. 15-17, med påfølgende festmiddag kl. 20.\n\nPrisvinnersamtalen gjennomføres i samarbeid med Abelprisen, Holbergprisen og Kavliprisen, og med støtte fra Kunnskapsdepartementet.\n\nLes mer om arrangementet her: https://www.uib.no/prisvinnersamtalen",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/gkVlCSjkR_U/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/gkVlCSjkR_U/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/gkVlCSjkR_U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 3,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "gkVlCSjkR_U"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/aGirkZABn_Ry2MPa0DvyM2ORUO4\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LnNqejRuVzlYQ3Bj",
+   "snippet": {
+    "publishedAt": "2019-08-19T12:00:04.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Bergens siste duell.",
+    "description": "Satire var vanskelig også for hundre år siden.\n\nSladderbladet Revyen fortalte den utrolige historien om byens siste duell. \n\nMen en dag gikk redaktør Joachim Lampe for langt, forteller Universitetsbibliotekets Bjørn-Arvid Bagge.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/sjz4nW9XCpc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/sjz4nW9XCpc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/sjz4nW9XCpc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/sjz4nW9XCpc/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/sjz4nW9XCpc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 4,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "sjz4nW9XCpc"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/Z6a302EzzjetJDc3ihUpkHU-8NI\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LlNqVXN3OWd1dWdz",
+   "snippet": {
+    "publishedAt": "2019-06-19T12:56:30.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "BBC OleUnhammer",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/SjUsw9guugs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/SjUsw9guugs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/SjUsw9guugs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/SjUsw9guugs/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/SjUsw9guugs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 5,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "SjUsw9guugs"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/wjhZsRzXs-EdCBj4XcnG5jHaVoE\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmJLQVI4TWt3RUdN",
+   "snippet": {
+    "publishedAt": "2019-05-15T10:33:47.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "- Om jeg så skal rive ham ut av sengen med mine egne hender!",
+    "description": "17. mai 1859 ble feiret med Bjørnstjerne Bjørnson og Ole Bull i spissen, men også i tottene på hverandre.\n\nBjørn-Arvid Bagge ved Universitetsbiblioteket i Bergen forteller om nasjonaldagen som ikke er blitt glemt.\n\nHusk at du finner de gamle bergensbildene på http://marcus.uib.no/",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/bKAR8MkwEGM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/bKAR8MkwEGM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/bKAR8MkwEGM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/bKAR8MkwEGM/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/bKAR8MkwEGM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 6,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "bKAR8MkwEGM"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/vPsW7ecf3ZAjqUcXmT7J7gRrpl0\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmtMRDVPRmd2Y2w4",
+   "snippet": {
+    "publishedAt": "2019-05-07T11:39:00.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Christieprisen 2019",
+    "description": "Utdeling av Christieprisen 2019.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/kLD5OFgvcl8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/kLD5OFgvcl8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/kLD5OFgvcl8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 7,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "kLD5OFgvcl8"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/l5SaI6j0xpTbuyWdC2k0K478-iE\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LjlEVnpheFBaVmsw",
+   "snippet": {
+    "publishedAt": "2019-05-09T16:33:53.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Ocean Outlook 2019",
+    "description": "This is the 5th in the Ocean Outlook meeting series, that are organised annually by the Bergen Marine Research Cluster and the Woods Hole Oceanographic Institution (WHOI) with contributions from the Massachusetts Institute of Technology (MIT). The meetings alternate between Bergen and Woods Hole to promote and sustain scientific and educational cooperation between the marine research institutions at these locations. The first Ocean Outlook meeting (OO15) was held in Bergen in 2015 and brought together over 100 attendees. OO16 dealt with “Icy Oceans”, and OO17 ‘Seeing under water’. Last year, OO18 was about “Rediscovering the Ocean”",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/9DVzaxPZVk0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/9DVzaxPZVk0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/9DVzaxPZVk0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 8,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "9DVzaxPZVk0"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/oRxR-4kfgEYNk4V8e8Hsmsa2V54\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LnJheEJFNDg5UmFV",
+   "snippet": {
+    "publishedAt": "2019-05-14T11:06:07.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Christiekonferansen 2019",
+    "description": "På årets Christiekonferanse spør vi: Hva er egentlig kunstig intelligens? Hva kan robotene bety for mennesket og samfunnet vårt. Hva vet vi egentlig? Hva sier historien? Og hva kan vi spå?\n\nSe mer om arrangementet her https://www.uib.no/christiekonferansen/125131/program-christiekonferansen-2019",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/raxBE489RaU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/raxBE489RaU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/raxBE489RaU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 9,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "raxBE489RaU"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/5-Rg8VK0NYUyeuL7MmXGX6yOVL8\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3Lk5JbHRjdlB6SmQw",
+   "snippet": {
+    "publishedAt": "2019-04-25T19:20:50.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Helvetes kjelleren ved Torget.",
+    "description": "Historien om øl i Bergen kan du finne i Spesialsamlingene ved UB, om du leter litt.\n\nHer forteller Bjørn-Arvid Bagge hva som kan leses ut av byens eldste avis.\n\nMye av Spesialsamlingenes bilder og dokumenter finner du på http://marcus.uib.no",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/NIltcvPzJd0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/NIltcvPzJd0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/NIltcvPzJd0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/NIltcvPzJd0/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/NIltcvPzJd0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 10,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "NIltcvPzJd0"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/rsYhGC9b_gnyyD041ax_V6zfR-E\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LnhjNUg5bFFHR1hV",
+   "snippet": {
+    "publishedAt": "2019-04-26T12:44:25.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Doktorpromosjon ved Universitetet i Bergen - 26/4-2019",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/xc5H9lQGGXU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/xc5H9lQGGXU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/xc5H9lQGGXU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 11,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "xc5H9lQGGXU"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/_7ARaRzSW85CxM335lD0VSBTgrc\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LnRUOW5BcjlMZVVZ",
+   "snippet": {
+    "publishedAt": "2019-04-04T11:08:07.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "UH-nett Vest - Solstrandseminaret 2019, dag 2",
+    "description": "Samarbeid med arbeidslivet er tema for årets UH-nett Vest-seminar på Solstrand 3.-4. april.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/tT9nAr9LeUY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/tT9nAr9LeUY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/tT9nAr9LeUY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 12,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "tT9nAr9LeUY"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/mGioQuAnK0R6HwKBLhL72TDvBKM\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LlJBQzJTaXpvaUEw",
+   "snippet": {
+    "publishedAt": "2019-04-03T15:58:15.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "UH-nett Vest - Solstrandseminaret 2019, dag 1",
+    "description": "Samarbeid med arbeidslivet er tema for årets UH-nett Vest-seminar på Solstrand 3.-4. april.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/RAC2SizoiA0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/RAC2SizoiA0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/RAC2SizoiA0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 13,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "RAC2SizoiA0"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/o4iWnSN9lBpI2bJSGRZRpYi6Bng\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmdOUVAwbnpqSWF3",
+   "snippet": {
+    "publishedAt": "2019-03-29T09:21:01.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Prinse-sommeren i Bergen",
+    "description": "I 1856 kom to kronprinser på besøk til Bergen. Det begynte ikke bra. \n\nDanmarks prins Napoleon kom noen uker etterpå, men det er en annen historie. Skikkelig prinse-sommer var det i alle fall.\n\nBjørn Arvid Bagge ved Spesialsamlingene forteller med utgangspunkt i saker og ting fra magasinene.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/gNQP0nzjIaw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/gNQP0nzjIaw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/gNQP0nzjIaw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/gNQP0nzjIaw/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/gNQP0nzjIaw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 14,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "gNQP0nzjIaw"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/4gWL42khjqJqXeQOB0Hx_o5fYNs\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmVnS1FZc0twbDRF",
+   "snippet": {
+    "publishedAt": "2019-03-15T11:26:23.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Han skapte den bergenske identitet.",
+    "description": "Ludvig Holberg reiste fra Bergen og ble berømt i København. Der skrev han Bergens historie krydret med egne minner fra byen. \n\nHer forteller Bjørn Bagge om byens store sønn.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/egKQYsKpl4E/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/egKQYsKpl4E/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/egKQYsKpl4E/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/egKQYsKpl4E/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 15,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "egKQYsKpl4E"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/UwDgskefzrIr_IcyEFsMi_Kd11A\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LnBiNjBDZVJWWUFv",
+   "snippet": {
+    "publishedAt": "2019-03-07T10:37:00.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Fra håndverk til industri.",
+    "description": "Skoproduksjon var en stor næring i Bergen.\n\nBjørn-Arvid Bagge forteller historien til Bergen skofabrikk, den eldste av de mange bergenske skofabrikkene.\n\nSpesialsamlingene ved UiB består av brevsamlinger, kart, dokumenter og bøker fra flere hundre år av norsk og bergensk historie.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/pb60CeRVYAo/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/pb60CeRVYAo/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/pb60CeRVYAo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/pb60CeRVYAo/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/pb60CeRVYAo/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 16,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "pb60CeRVYAo"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/RrvGFQDDrDph74SeQMH_xTJjLAg\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3Lm5PRnNmSVBjdUxJ",
+   "snippet": {
+    "publishedAt": "2019-02-25T10:24:39.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Det beste ved å være ph.d.-kandidat ved UiB",
+    "description": "Astrid Nybø forteller kort om hva hun synes som er det beste ved å være ph.d.-kandidat ved UiB",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/nOFsfIPcuLI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/nOFsfIPcuLI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/nOFsfIPcuLI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/nOFsfIPcuLI/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/nOFsfIPcuLI/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 17,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "nOFsfIPcuLI"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/8djnskvly_TQu2K_NYOe3Cbp_9E\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3Lm5ydHA2VnhNZUo0",
+   "snippet": {
+    "publishedAt": "2019-02-25T10:06:57.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Life as a PhD candidate at UiB",
+    "description": "Marion Claireaux tells about life and work as a PhD candidate at UiB.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/nrtp6VxMeJ4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/nrtp6VxMeJ4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/nrtp6VxMeJ4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/nrtp6VxMeJ4/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/nrtp6VxMeJ4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 18,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "nrtp6VxMeJ4"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/QtTgDaCybLwuhy5OJCRLIkSsn6U\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmFfTWhsbDhLWUpn",
+   "snippet": {
+    "publishedAt": "2019-02-25T10:06:57.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Dynamic environment as a PhD candidate at UiB",
+    "description": "Marion Claireaux tells about the dynamic work environment as a PhD candidate at UiB",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/a_Mhll8KYJg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/a_Mhll8KYJg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/a_Mhll8KYJg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/a_Mhll8KYJg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/a_Mhll8KYJg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 19,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "a_Mhll8KYJg"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/ROOp0S-COBLUjjFQHGMp1wy-sc8\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmJEakJ0NERJV3Jv",
+   "snippet": {
+    "publishedAt": "2019-02-25T10:06:57.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Are you ready for PhD at UiB?",
+    "description": "Marion Claireaux thinks that UiB is a very good choice if you’re ready for PhD education",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/bDjBt4DIWro/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/bDjBt4DIWro/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/bDjBt4DIWro/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/bDjBt4DIWro/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/bDjBt4DIWro/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 20,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "bDjBt4DIWro"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/sRlNn59b4LpxI7zowIw5yTYINbE\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LkVvM1o2M3l6a0tB",
+   "snippet": {
+    "publishedAt": "2019-02-25T10:06:57.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Livet som ph.d.-kandidat ved UiB",
+    "description": "Astrid Nybø forteller om livet og arbeidshverdagen som ph.d.-kandidat ved UiB.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Eo3Z63yzkKA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Eo3Z63yzkKA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Eo3Z63yzkKA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Eo3Z63yzkKA/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Eo3Z63yzkKA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 21,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "Eo3Z63yzkKA"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/B2O4-B8HEnbySZSwJCIfErEOd1E\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LnJOamJnR2hkMzh3",
+   "snippet": {
+    "publishedAt": "2019-02-25T10:06:48.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Variert hverdag som ph.d.-kandidat ved UiB",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/rNjbgGhd38w/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/rNjbgGhd38w/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/rNjbgGhd38w/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/rNjbgGhd38w/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/rNjbgGhd38w/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 22,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "rNjbgGhd38w"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/YNw7lLQRNgv4mDOA1fgungQgijE\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmhBeUZNVEFOQVRj",
+   "snippet": {
+    "publishedAt": "2019-02-19T14:51:28.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Åpent møte med utenriksministeren: Internasjonalt samarbeid under press",
+    "description": "Internasjonalt samarbeid er avgjørende for Norges sikkerhet og velferd. Men i dag er mange av de multilaterale avtalene under press. Utenriksminister Ine Eriksen Søreide kommer til UiB for å snakke om hva det betyr for Norge.\n\nLes mer på https://www.uib.no/aktuelt/124564/åpent-møte-med-utenriksministeren-internasjonalt-samarbeid-under-press",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/hAyFMTANATc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/hAyFMTANATc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/hAyFMTANATc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 23,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "hAyFMTANATc"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/ouTCg4uWRDbSCDfUGZfZMNNS1k8\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LnVMLU5aWXI3Yjlj",
+   "snippet": {
+    "publishedAt": "2019-02-14T13:15:09.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Edvardsens Bergensbeskrivelse ble viktig for byen.",
+    "description": "Han visste ikke at han reddet Bergens historie. Edvard Edvardsen (1630 - 1695) skrev av store mengder kildemateriale.\n\nUnder den store bybrannen i 1702 forsvant arkiver og kilder i flammene. Hans bøker sto igjen som en enestående kilde til byens gamle historie.\n\nBjørn-Arvid Bagge forteller nok en spennende historie fra Spesialsamlingene ved UB og Universitetet i Bergen.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/uL-NZYr7b9c/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/uL-NZYr7b9c/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/uL-NZYr7b9c/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/uL-NZYr7b9c/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/uL-NZYr7b9c/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 24,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "uL-NZYr7b9c"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/r_6ka7hHRTvyvtBDOAn3MXoJaiA\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3Ll8yelk3ajk4aF9B",
+   "snippet": {
+    "publishedAt": "2019-02-06T17:50:14.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "SDG Conference 2019 UiB, day 0: Does climate mitigation trump other concerns?",
+    "description": "Balancing mitigation actions and their impacts. Dilemmas in implementing rapid transformation of the energy system to reach the Paris targets are many. Our expert panel will present and discuss major challenges and possible conflicts between the SDG goals.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/_2zY7j98h_A/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/_2zY7j98h_A/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/_2zY7j98h_A/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 25,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "_2zY7j98h_A"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/lyEzOlAj7SVrSYPKDuaEsN_FILU\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3Ljg3eUpxdmZhS1R3",
+   "snippet": {
+    "publishedAt": "2019-02-08T15:14:35.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "2019 SDG Conference Bergen, day 2 (timecodes in description)",
+    "description": "The 2019 SDG Conference Bergen aims to draw together concerned, disparate and converging views on how knowledge, science, education and institutions need innovative and radical re:thinking in order to provide foundations for the global collaborative re:working needed to engage and work with the 2030 Agenda. Over two days, Norway’s research and higher education sector brings together national and international speakers from academia, government, civil society, and the United Nations system, to explore the roles of research and education in creating new approaches for shared commitments to a sustainable global future.\n\nSession 3 – re:working // Knowledge for Partnerships\n- 10:33 Moderator, Dr. Annelin Eriksen, Vice-Rector for Global Relations, University of Bergen, introduces day 2 agenda and keynote\n- 15:12 Keynote: Dr. Katherine Richardson, University of Copenhagen\n- 33:56 Moderator introduces keynote speaker 2\n- 34:24 Keynote: Mr. Silvio Funtowicz, University of Bergen\n- 1:32:30 Student video III\n- 1:34:04 Introduction panel discussion\n\nSession 4 – re:working // 2030 Agenda: Global Governance and the universities\n- 3:57:53 Moderator, Mr. Dankert Vedeler, former co-chair of the global SDG Education 2030 Steering Committee and Director in the Ministry of Education and Research, introduces keynote\n- 4:05:05 Keynote: Dr. Michael Zürn, Berlin Social Science Centre\n- 4:32:22 Introduction panel discussion\n- 5:24:20 Closing remarks, Mr. Dag-Inge Ulstein, Minister of International Development, Government of Norway",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/87yJqvfaKTw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/87yJqvfaKTw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/87yJqvfaKTw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 26,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "87yJqvfaKTw"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/V3UmWXiCdj-5n3cQjtBwqJFYAJc\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LjJ3UXJXamF1QmRF",
+   "snippet": {
+    "publishedAt": "2019-02-07T17:12:06.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "2019 SDG Conference Bergen, day 1 (timecodes in description)",
+    "description": "The 2019 SDG Conference Bergen aims to draw together concerned, disparate and converging views on how knowledge, science, education and institutions need innovative and radical re:thinking in order to provide foundations for the global collaborative re:working needed to engage and work with the 2030 Agenda. Over two days, Norway’s research and higher education sector brings together national and international speakers from academia, government, civil society, and the United Nations system, to explore the roles of research and education in creating new approaches for shared commitments to a sustainable global future.\n\nConference opening:\n- 15:14 Dr. Dag Rune Olsen, Rector of the University of Bergen\n- 26:35 Ms. Rebekka Borsch, State Secretary to the Norwegian Minister of Research and Higher Education\n- 39:57 Mr. Håkon Randgaard Mikalsen, National Union of Students in Norway\n\nSession 1 – re:thinking I // Education and Global Inequality\n- 47:47 Moderator Oddrun Samdal introduces day 1 agenda and keynote speaker\n- 54:36 Keynote: Dr. Stefania Giannini, Assistant Director-General for Education, UNESCO\n- 1:52:26 Student video I\n- 1:53:57 Panel discussion\n\nSession 2 – re:thinking II // Climate Action and Economic Growth\n- 4:10:57 Moderator Dr. Kristin Guldbrandsen Frøysa introduces keynote speaker 1\n- 4:13:26 Keynote: Dr. Jason Hickel, Goldsmiths University of London\n- 4:32:28 Moderator introduces keynote speaker 2\n- 4:33:33 Keynote: Dr. Tore Furevik, Director of the Bjerknes Centre for Climate Research, University of Bergen\n- 5:19:45 Student video II\n- 5:22:36 Panel discussion",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/2wQrWjauBdE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/2wQrWjauBdE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/2wQrWjauBdE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 27,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "2wQrWjauBdE"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/EqfCRFgjcr9yUjsgW40CONITkkg\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LlktWUxsMFhkSXVz",
+   "snippet": {
+    "publishedAt": "2019-01-28T13:27:17.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Bartskjærere og Bødler",
+    "description": "I Bergen var det en gang ni bartskjærere med kongelig bevilgning.\n\nNei, det er ikke noe Bjørn-Arvid Bagge finner på. Beviset ligger i Spesialsamlingene ved Universitetsbiblioteket i Bergen.\n\nHer forteller historikeren om det ganske spesielle helsevesenet i hine hårde dager.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Y-YLl0XdIus/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Y-YLl0XdIus/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Y-YLl0XdIus/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Y-YLl0XdIus/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Y-YLl0XdIus/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 28,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "Y-YLl0XdIus"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/RXbQ2RJUb_8DAt4wq4vVuwD1onQ\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmpLa0F4UmRjMXA0",
+   "snippet": {
+    "publishedAt": "2019-01-25T14:09:22.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Doktorpromosjon ved Universitetet i Bergen -  25/1-2019",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/jKkAxRdc1p4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/jKkAxRdc1p4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/jKkAxRdc1p4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 29,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "jKkAxRdc1p4"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/Hj1OsMbscLl0RtGnAuI0dfvJiQo\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LkpSZE1SLVBoYkJR",
+   "snippet": {
+    "publishedAt": "2019-01-11T13:53:21.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "University of Bergen - At the right place with the right people",
+    "description": "Music: http://www.bensound.com/royalty-free-music\n\nSound effect:\nRocket Launch: https://freesound.org/s/158894/",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/JRdMR-PhbBQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/JRdMR-PhbBQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/JRdMR-PhbBQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/JRdMR-PhbBQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/JRdMR-PhbBQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 30,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "JRdMR-PhbBQ"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/cwItcx19Jx9LQDc1U24BVBKThhQ\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LjBFMGNPWnBaUVhZ",
+   "snippet": {
+    "publishedAt": "2019-01-11T13:51:39.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Universitetet i Bergen - På rett plass med de rette menneskene",
+    "description": "Promofilm for Universitetet i Bergen 2019.\n\nLes mer om vår forskning her: uib.no/forskning\n\nMusikk: http://www.bensound.com/royalty-free-music\n\nlydeffekt:\nRocket Launch: https://freesound.org/s/158894/",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/0E0cOZpZQXY/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/0E0cOZpZQXY/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/0E0cOZpZQXY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/0E0cOZpZQXY/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/0E0cOZpZQXY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 31,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "0E0cOZpZQXY"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/aBwWNKvWJ_YQenFNU0Xx-5PRH7o\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmozaldodUFVV0R3",
+   "snippet": {
+    "publishedAt": "2018-12-13T13:14:35.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Internasjonal uke 15. - 18. januar",
+    "description": "Vil du reise på utveksling? Gå ikkje glipp av Internasjonal uke 15. - 18. januar 2019!\n\nBli inspirert og informert om moglegheitene du har til å reise ut i ditt studium. Når i studiet kan du reise ut? Kvar kan du reise? Korleis søker du? Vi hjelper deg!",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/j3jWhuAUWDw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/j3jWhuAUWDw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/j3jWhuAUWDw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/j3jWhuAUWDw/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 32,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "j3jWhuAUWDw"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/iyr8z6kicj3vZPcV4E5LkTREkFo\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LkZvUmZEV2h5NFNj",
+   "snippet": {
+    "publishedAt": "2018-12-10T22:30:05.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Scientific seminar: From Past to Future in Global Health",
+    "description": "Centre for International Health celebrates its 30 year anniversary this year. We welcome everyone interested in global health to join our celebration.\n\n10th December 2018, 0830-2030 in the University Aula\n\nRead more about the event at https://www.uib.no/en/cih/120779/past-future",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/FoRfDWhy4Sc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/FoRfDWhy4Sc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/FoRfDWhy4Sc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 33,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "FoRfDWhy4Sc"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/n3TcFqNf8b4V24MnoToWviJ82mQ\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3Lnd6SGFrUjJqaWNn",
+   "snippet": {
+    "publishedAt": "2018-12-07T11:26:18.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Åpen publisering - Plan S",
+    "description": "Les mer om arrangementet på https://www.uib.no/rektoratet/121519/åpen-publisering-plan-s",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/wzHakR2jicg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/wzHakR2jicg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/wzHakR2jicg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 34,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "wzHakR2jicg"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/3vYORjgzIKnqpjPHc4oKYr802SM\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LkIydWFHUV9iT3Nr",
+   "snippet": {
+    "publishedAt": "2018-12-07T14:40:31.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Årsmarkering Bergens Forskningsstiftelse",
+    "description": "Les mer på https://www.uib.no/ka/122256/årsmarkering-bergens-forskningsstiftelse",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/B2uaGQ_bOsk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/B2uaGQ_bOsk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/B2uaGQ_bOsk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 35,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "B2uaGQ_bOsk"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/JjC_lVKWi34PTc_KHwlfkzfbFp8\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmdCakt0aE55cU1R",
+   "snippet": {
+    "publishedAt": "2018-11-16T15:33:17.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Migrasjonskonferanse: Helse i alt vi gjør 2018 - fredag ettermiddag",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/gBjKthNyqMQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/gBjKthNyqMQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/gBjKthNyqMQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 36,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "gBjKthNyqMQ"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/mZHOlrb_3Vq8dWqqym1X_8UCBuY\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmxNQkZLTEQ4N2dV",
+   "snippet": {
+    "publishedAt": "2018-11-16T09:28:45.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Migrasjonskonferanse: Helse i alt vi gjør 2018 - fredag formiddag",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/lMBFKLD87gU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/lMBFKLD87gU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/lMBFKLD87gU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 37,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "lMBFKLD87gU"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/ua1aQL4JBHcQLO81SuO4Lm12-E4\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmFqYkk1WFVva1VR",
+   "snippet": {
+    "publishedAt": "2018-11-15T15:17:32.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Migrasjonskonferanse: Helse i alt vi gjør 2018 - torsdag ettermiddag",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ajbI5XUokUQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ajbI5XUokUQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ajbI5XUokUQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 38,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "ajbI5XUokUQ"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/OpO_yHdbEepD4jTSacB_iDS9IIY\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3Lk0xRjZraVNhOVZF",
+   "snippet": {
+    "publishedAt": "2018-11-15T09:24:20.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Migrasjonskonferanse: Helse i alt vi gjør 2018 - torsdag formiddag",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/M1F6kiSa9VE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/M1F6kiSa9VE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/M1F6kiSa9VE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 39,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "M1F6kiSa9VE"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/JPxN2Lsw7c9fS2lPwn51XayRJMw\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LlF6a2c0UXRPUWd3",
+   "snippet": {
+    "publishedAt": "2018-10-26T17:19:08.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Ta Ordet! - Finale 2018",
+    "description": "Fredag 26. oktober 2018 kl. 17.00-19.00, avholdes finalen i den tredje utgaven av Ta ordet! i Universitetsaulaen i Bergen. En rekke skoler fra flere deler av landet er påmeldt til årets utgave, og har deltatt på lærerworkshops i ulike byer før skolene holdt interne konkurranser. Videre ble vinnerne sendt fra de ulike skolene til delfinaler i Ålesund og Bergen, før det ble valgt ut seks finalister som får holde sin tale i Universitetsaulaen 26. oktober - hvor vinneren stikker av med 10.000 kroner. \n\nÅrets tema er: Sannhet.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Qzkg4QtOQgw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Qzkg4QtOQgw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Qzkg4QtOQgw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 40,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "Qzkg4QtOQgw"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/tjCPxUeDjP_V6OSsx1RI0Qo4f4M\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LlpYeTdmeUQyczVv",
+   "snippet": {
+    "publishedAt": "2018-10-08T09:14:27.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Direkte fra Christie Café - Universitetsmuseet",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ZXy7fyD2s5o/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ZXy7fyD2s5o/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ZXy7fyD2s5o/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/ZXy7fyD2s5o/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/ZXy7fyD2s5o/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 41,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "ZXy7fyD2s5o"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/H9uaDO8ejSAGeTSuL-HZVvDwLAk\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LkNsSjBMN29MaVV3",
+   "snippet": {
+    "publishedAt": "2018-10-05T12:34:51.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Test",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ClJ0L7oLiUw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ClJ0L7oLiUw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ClJ0L7oLiUw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 42,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "ClJ0L7oLiUw"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/Wt-JlVmagbX3hPBKYqkDVOfoLjY\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LlpQdWdHZi00b3Nr",
+   "snippet": {
+    "publishedAt": "2018-09-15T15:12:29.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Filosofisk helsekontroll 20 år etter: Hvor er medisinen på vei?",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ZPugGf-4osk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ZPugGf-4osk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ZPugGf-4osk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 43,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "ZPugGf-4osk"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/oHLtN8LcsP0upPyiMvq_RQ9VN68\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LnZjaVBWMTR5empV",
+   "snippet": {
+    "publishedAt": "2018-08-31T12:48:48.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Doktorpromosjon - Høst 2018",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vciPV14yzjU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vciPV14yzjU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vciPV14yzjU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 44,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "vciPV14yzjU"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/PA1YDNXu-wns5Z-WvmQsdLvwAGU\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3Lm9wbDlnY000VjJV",
+   "snippet": {
+    "publishedAt": "2018-08-23T17:44:56.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Children on the Run",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/opl9gcM4V2U/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/opl9gcM4V2U/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/opl9gcM4V2U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 45,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "opl9gcM4V2U"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/dyxqe8cEwLDV0SBhx-4M_L84y8c\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LlRQS3hfMXlzQzQ4",
+   "snippet": {
+    "publishedAt": "2018-08-24T11:58:37.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "The critique of child's protection and children's rights",
+    "description": "The Norwegian child protection system is once again under the scrutiny of international mass media. This time it is the BBC that August 3, 2018 published an article titled Norway´s hidden scandal, portraying parents that feel mistreated by the system. These types of articles, exposing the mistakes and brutal consequences of a system that always stands on the balancing verge of doing too much or too little - damned if you do and damned if you don’t - are common in many countries and raises a wide range of questions in relation to the rights of children and the legitimacy of the child protection system. This session discusses the many consequences of mass media exposure of child protection workers, judiciary decision makers, children, foster parents and birth parents. How do parental rights challenge children´s rights, and does mass media exposure create a mistrust in the system that poses a risk to children? Transparency and accountability are necessary in a democratic society; even more so, for a system that can remove children from their families. How does the government handle and respond to critique without disclosing private and confidential information about the individuals concerned? We will discuss the implications of critical exposure of child protection systems, examining the experiences from various systems and countries.\n\nModerator: Hege Helland (University of Bergen).\nParticipants: June Thoburn (East Anglia University); Tarja Pösö (Tampere University); University of Bergen); Svanhild Alver (Bergen Municipality)(tbc); Geir Kjell Andersland (Hordaland Social County Board)(tbc); Kenneth Burns (Cork Univerisity College); Thomas Meysen (the International Centre for Socio-Legal Studies (SOCLES)); Marit Skivenes (University of Bergen).\n\n\nThis event is part of the Bergen Exchanges on Law and Social Transformation, and is free and open to all.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/TPKx_1ysC48/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/TPKx_1ysC48/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/TPKx_1ysC48/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 46,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "TPKx_1ysC48"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/bCQb4O5wxuUQhAWzL9eKM8hXsbk\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LkhUM3dUbFd1bi1J",
+   "snippet": {
+    "publishedAt": "2018-08-24T10:42:27.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "International Rights and Cultural Practices",
+    "description": "The United Nations’ Convention on the Rights of the Child (UNCRC) places extensive obligations on governments to protect the rights of children. Still, there are huge differences in how the UNCRC is interpreted and what thresholds are set for allowing certain practices. In most western countries, child marriage is forbidden, or only allowed in very limited circumstances. This understanding of female children’s rights is challenged by the influx of migrants into Europe, and herewith, children married to older men. These married girls are 12 or 13 years old, may have children and are in a sexual relationship with an older man. \n\nWhat should the state do here to protect children? The reasons for child marriage can be found in cultural tradition, poverty and gender inequality, but after migrating to a new country these reasons are questioned. In this debate, we wish to shed light on the situation for child-married girls, and to scrutinize the reasons for making an intervention. \n\nModerator: Audun Løvlie \nParticipants: June Thoburn (University of East Anglia); Sagrario Segado (National University of Distance Education); Kenneth Burns (University College Cork); Thomas Meysen; Jayna Kothari (CLPR/Lawtransform); Satang Nabaneh (University of Pretoria/Lawtransform).",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/HT3wTlWun-I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/HT3wTlWun-I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/HT3wTlWun-I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 47,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "HT3wTlWun-I"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/vmfxyLJu25hIU97TTZWIXah1grk\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LjR1WXlnRU1rZXZV",
+   "snippet": {
+    "publishedAt": "2018-08-24T09:26:09.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "The European Court of Human Rights and Child´s Rights",
+    "description": "The European Court of Human Rights (ECtHR) has decided nine child protection cases brought against the Norwegian state. Parents disagreeing with the state’s child welfare interventions have brought their complaints to the Court, alleging a breach of Article 8 of the ECHR. The Court must carry out an assessment of the potential breach of the parents’ Convention rights, but also give thorough consideration to the child’s rights. \n\nHow does the ECtHR handle cases that concern child care proceedings, adoption without consent, or care orders of newborn babies? How does the ECtHR understand the margin of appreciation, the subsidiarity principle and what is “necessary in a democratic society” in these cases? Is the case law uniform on this? Is there European consensus to speak of on these issues? Four of the cases communicated to Norway concern adoption as child protection measure. How are biological ties and legal ties assessed in these cases and how is the child’s best interests interpreted? How should the court weigh biological ties and legal ties and best interest assessments - in light of Article 8?\n\nModerator: Trond Helland (University of Bergen). \nParticipants: Karl Harald Søvig (University of Bergen);  Katre Luhamaa (University of Bergen); Geir Kjell Andersland (Hordaland Social County Board); Conor O´Mahony (Cork University Collage); Marit Skivenes (University of Bergen)",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/4uYygEMkevU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/4uYygEMkevU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/4uYygEMkevU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 48,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "4uYygEMkevU"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"8jEFfXBrqiSrcF6Ee7MQuz8XuAM/g1LhR7K-aQXMbuAXuHChgct_91w\"",
+   "id": "VVVzWlV1cjNTdWNybVRpRUNZWnZ1TGx3LmhCOEVkWV8wci1R",
+   "snippet": {
+    "publishedAt": "2018-08-24T08:17:12.000Z",
+    "channelId": "UCsZUur3SucrmTiECYZvuLlw",
+    "title": "Child’s best interest principle",
+    "description": "Article 3 of the UNCRC requires that “In all actions concerning children, whether undertaken by public or private social welfare institutions, courts of law, administrative authorities or legislative bodies, the best interests of the child shall be a primary consideration.” In this session, we will discuss the principle of the best interest from different disciplinary angles and empirical fields. The child’s best interests principle is a main pillar of the UNCRC and is well-established in the legal systems across the world. The intuitive appeal of regulating and defending legal interventions by reference to “best interests” is met with significant criticism of the principle’s failure to provide substantive guidance to what is and is not in a child’s best interests. \n\nThe English baby Charlie Gard, fatally ill, made headlines internationally in 2017 when the Supreme Court of England and later the European Court of Human Rights decided that is was in the baby’s best interest to be taken off life support. Recently another baby, Alfie Evans, died at Alder Hey hospital after life support was withdrawn. How can removal of life support be in the best interests of the child? What is the reasoning behind such a decision, and how does it correspond with Human Rights and the Rights of the Child? \n\nJudges apply significant discretion when making decisions regarding children. Some have accused the courts of using this vagueness as a means of implementing their own values and beliefs, rather than objectively assessing the child’s welfare, and applying legal principles consistently. Differences in outcomes on similar facts appear to support this view. What does this tell us about best interest considerations in the legal sphere? The session marks the publication of Langford, Skivenes & Søvig (eds) Child rights in Norway: Measuring Compliance.\n\nModerators: Siri H. Pedersen and Hege S. Helland \nParticipants: Katre Luhamaa (University of Bergen); Kirsten Sandberg (University of Oslo, member of the Committee on the Rights of the Child, chair of the Committee 2013-15*); Asgeir Falch-Eriksen (OsloMet – storbyuniversitetet); Kenneth Burns (University College Cork);  Thomas Meysen (the International Centre for Socio-Legal Studies (SOCLES))",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/hB8EdY_0r-Q/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/hB8EdY_0r-Q/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/hB8EdY_0r-Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "University of Bergen UiB",
+    "playlistId": "UUsZUur3SucrmTiECYZvuLlw",
+    "position": 49,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "hB8EdY_0r-Q"
+    }
+   }
+  }
+ ]
+}

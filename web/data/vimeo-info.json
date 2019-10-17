@@ -1,0 +1,172 @@
+{
+    "uri": "/users/5446575",
+    "name": "UiB - Universitetet i Bergen",
+    "link": "https://vimeo.com/uib",
+    "location": "",
+    "bio": "The University of Bergen is a young and modern university, yet with a long academic tradition in Armauer Hansen's home town. The University's academic landscape is characterised by its great variety and breadth. Six faculties cover most of the traditional university disciplines. Within the faculties are included 60 different specialised departments, centres and institutes. International students are offered master-level and doctoral training at the University of Bergen.",
+    "short_bio": null,
+    "created_time": "2010-12-10T09:09:35+00:00",
+    "pictures": {
+        "uri": "/users/5446575/pictures/15767358",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+            {
+                "width": 30,
+                "height": 30,
+                "link": "https://i.vimeocdn.com/portrait/15767358_30x30"
+            },
+            {
+                "width": 75,
+                "height": 75,
+                "link": "https://i.vimeocdn.com/portrait/15767358_75x75"
+            },
+            {
+                "width": 100,
+                "height": 100,
+                "link": "https://i.vimeocdn.com/portrait/15767358_100x100"
+            },
+            {
+                "width": 300,
+                "height": 300,
+                "link": "https://i.vimeocdn.com/portrait/15767358_300x300"
+            },
+            {
+                "width": 72,
+                "height": 72,
+                "link": "https://i.vimeocdn.com/portrait/15767358_72x72"
+            },
+            {
+                "width": 144,
+                "height": 144,
+                "link": "https://i.vimeocdn.com/portrait/15767358_144x144"
+            },
+            {
+                "width": 216,
+                "height": 216,
+                "link": "https://i.vimeocdn.com/portrait/15767358_216x216"
+            },
+            {
+                "width": 288,
+                "height": 288,
+                "link": "https://i.vimeocdn.com/portrait/15767358_288x288"
+            },
+            {
+                "width": 360,
+                "height": 360,
+                "link": "https://i.vimeocdn.com/portrait/15767358_360x360"
+            }
+        ],
+        "resource_key": "dcabae7ebb4e60ce29ecefb67ef536e21e6e659a"
+    },
+    "websites": [
+        {
+            "name": null,
+            "link": "uib.no",
+            "description": null
+        }
+    ],
+    "metadata": {
+        "connections": {
+            "albums": {
+                "uri": "/users/5446575/albums",
+                "options": [
+                    "GET"
+                ],
+                "total": 47
+            },
+            "appearances": {
+                "uri": "/users/5446575/appearances",
+                "options": [
+                    "GET"
+                ],
+                "total": 0
+            },
+            "channels": {
+                "uri": "/users/5446575/channels",
+                "options": [
+                    "GET"
+                ],
+                "total": 4
+            },
+            "feed": {
+                "uri": "/users/5446575/feed",
+                "options": [
+                    "GET"
+                ]
+            },
+            "followers": {
+                "uri": "/users/5446575/followers",
+                "options": [
+                    "GET"
+                ],
+                "total": 143
+            },
+            "following": {
+                "uri": "/users/5446575/following",
+                "options": [
+                    "GET"
+                ],
+                "total": 3
+            },
+            "groups": {
+                "uri": "/users/5446575/groups",
+                "options": [
+                    "GET"
+                ],
+                "total": 0
+            },
+            "likes": {
+                "uri": "/users/5446575/likes",
+                "options": [
+                    "GET"
+                ],
+                "total": 1
+            },
+            "membership": {
+                "uri": "/users/5446575/membership/",
+                "options": [
+                    "PATCH"
+                ]
+            },
+            "moderated_channels": {
+                "uri": "/users/5446575/channels?filter=moderated",
+                "options": [
+                    "GET"
+                ],
+                "total": 5
+            },
+            "portfolios": {
+                "uri": "/users/5446575/portfolios",
+                "options": [
+                    "GET"
+                ],
+                "total": 0
+            },
+            "videos": {
+                "uri": "/users/5446575/videos",
+                "options": [
+                    "GET"
+                ],
+                "total": 721
+            },
+            "shared": {
+                "uri": "/users/5446575/shared/videos",
+                "options": [
+                    "GET"
+                ],
+                "total": 0
+            },
+            "pictures": {
+                "uri": "/users/5446575/pictures",
+                "options": [
+                    "GET",
+                    "POST"
+                ],
+                "total": 1
+            }
+        }
+    },
+    "resource_key": "94fcf86172b08a35b8aa52d9726eb5f67cf5fa13",
+    "account": "pro"
+}
