@@ -1,0 +1,22 @@
+.countCard {
+  width: 50%;
+  float: left; 
+  padding: 1em 1em 0 1em;
+}
+
+.countCard h3 {
+  text-align: right;
+  font-size: 5em;
+  color: white;
+}
+
+.navLink {
+  padding-top: 15px;
+}
+
+.navLink a {
+  text-decoration: none;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}

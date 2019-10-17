@@ -1,103 +1,62 @@
-import React from 'react'
-import {graphql} from 'gatsby'
-import {
-  mapEdgesToNodes,
-  filterOutDocsWithoutSlugs,
-  filterOutDocsPublishedInTheFuture
-} from '../lib/helpers'
-import Container from '../components/container'
-import GraphQLErrorList from '../components/graphql-error-list'
-import ProjectPreviewGrid from '../components/project-preview-grid'
-import SEO from '../components/seo'
-import Layout from '../containers/layout'
+import React from "react"
+import { graphql } from 'gatsby'
+import { Link } from "gatsby"
+
+import Layout from "../components/layout"
+// import Image from "../components/image"
+import SEO from "../components/seo"
+
+import style from "../components/general.module.css"
+
+
+const IndexPage = ({data}) => (
+  <Layout>
+    <SEO title="Home" />
+    <h1>Oversikt over UiBs videoer</h1>
+    <p>Målet er å samle sammen metadata og embedde video fra de eksterne tjenestene UiB benytter for distribusjon av video. Forhåpentligvis kan også regnearket med videoer også komme med her.</p>
+    
+    <Link to="/youtube">
+      <div className={style.countCard} style={{ backgroundColor: `#7ec9c7` }}>
+        <h2>Youtube</h2>
+        <h3>{data.allYoutubeVideo.totalCount}</h3>
+      </div>
+    </Link>
+    <Link to="/vimeo">
+      <div className={style.countCard} style={{ backgroundColor: `#f39e5f` }}>
+        <h2>Vimeo</h2>
+        <h3>{data.allVimeoVideo.totalCount}</h3>
+      </div>
+    </Link>
+    <Link to="/digitalisering">
+      <div className={style.countCard} style={{ backgroundColor: `#eb91ba` }}>
+        <h2>Mastertape</h2>
+        <h3>{data.allVideoproduksjonDigitaliseringMastertapeCsv.totalCount}</h3>
+      </div>
+    </Link>
+    <Link to="/digitalisering">
+      <div className={style.countCard} style={{ backgroundColor: `#ec6915` }}>
+        <h2>Tivoli</h2>
+        <h3>{data.allVideoproduksjonDigitaliseringTivoliCsv.totalCount}</h3>
+        </div>
+    </Link>
+  </Layout>
+)
 
 export const query = graphql`
-  query IndexPageQuery {
-    site: sanitySiteSettings(_id: {regex: "/(drafts.|)siteSettings/"}) {
-      title
-      description
-      keywords
+  {
+    allVideoproduksjonDigitaliseringTivoliCsv {
+      totalCount
     }
-    projects: allSanityProject(
-      limit: 6
-      sort: {fields: [publishedAt], order: DESC}
-      filter: {slug: {current: {ne: null}}, publishedAt: {ne: null}}
-    ) {
-      edges {
-        node {
-          id
-          mainImage {
-            crop {
-              _key
-              _type
-              top
-              bottom
-              left
-              right
-            }
-            hotspot {
-              _key
-              _type
-              x
-              y
-              height
-              width
-            }
-            asset {
-              _id
-            }
-            alt
-          }
-          title
-          _rawExcerpt
-          slug {
-            current
-          }
-        }
-      }
+    allVideoproduksjonDigitaliseringMastertapeCsv {
+      totalCount
+    }
+    allVimeoVideo {
+      totalCount
+    }
+    allYoutubeVideo {
+      totalCount
     }
   }
 `
-
-const IndexPage = props => {
-  const {data, errors} = props
-
-  if (errors) {
-    return (
-      <Layout>
-        <GraphQLErrorList errors={errors} />
-      </Layout>
-    )
-  }
-
-  const site = (data || {}).site
-  const projectNodes = (data || {}).projects
-    ? mapEdgesToNodes(data.projects)
-      .filter(filterOutDocsWithoutSlugs)
-      .filter(filterOutDocsPublishedInTheFuture)
-    : []
-
-  if (!site) {
-    throw new Error(
-      'Missing "Site settings". Open the studio at http://localhost:3333 and add some content to "Site settings" and restart the development server.'
-    )
-  }
-
-  return (
-    <Layout>
-      <SEO title={site.title} description={site.description} keywords={site.keywords} />
-      <Container>
-        <h1 hidden>Welcome to {site.title}</h1>
-        {projectNodes && (
-          <ProjectPreviewGrid
-            title='Latest projects'
-            nodes={projectNodes}
-            browseMoreHref='/archive/'
-          />
-        )}
-      </Container>
-    </Layout>
-  )
-}
 
 export default IndexPage

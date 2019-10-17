@@ -9,6 +9,11 @@ const token = process.env.SANITY_READ_TOKEN
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
+  siteMetadata: {
+    title: `UiB Video`,
+    description: `Oversikt over UiB videoer publisert på YouTube og Vimeo.`,
+    author: `@tarjelavik`,
+  },
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
@@ -25,15 +30,15 @@ module.exports = {
       resolve: `gatsby-source-youtube-v2`,
       options: {
         channelId: ['UCsZUur3SucrmTiECYZvuLlw'],
-        apiKey: process.env.GOOGLE_YOUTUBE_API_TOKEN,
+        apiKey: process.env.GATSBY_YOUTUBE_TOKEN,
         maxVideos: 500 // Defaults to 50
       },
     },
     {
       resolve: `gatsby-source-vimeo`,
       options: {
-        clientID: process.env.VIMEO_CLIENTID,
-        clientSecret: process.env.VIMEO_TOKEN,
+        clientID: process.env.GATSBY_VIMEO_CLIENTID,
+        clientSecret: process.env.GATSBY_VIMEO_TOKEN,
         userID: 'uib',
         // searchQuery: 'INSERT_SEARCH_QUERY [OPTIONAL]',
         transformer (video) {
@@ -59,5 +64,8 @@ module.exports = {
       },
     },
     `gatsby-transformer-csv`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
   ]
 }

@@ -18,15 +18,18 @@
     "gatsby": "^2.9.11",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-postcss": "^2.0.7",
-    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-sharp": "^2.2.32",
     "gatsby-source-filesystem": "^2.1.33",
     "gatsby-source-sanity": "^4.0.1",
     "gatsby-source-vimeo": "^1.1.8",
     "gatsby-source-youtube-v2": "^1.0.1",
     "gatsby-transformer-csv": "^2.1.14",
+    "gatsby-transformer-sharp": "^2.2.23",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.1",
+    "react-youtube-lazy": "^1.2.1"
   },
   "devDependencies": {
     "dotenv": "^8.0.0",

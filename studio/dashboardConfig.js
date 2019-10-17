@@ -6,7 +6,7 @@ export default {
         templateRepoId: 'sanity-io/sanity-template-gatsby-portfolio'
       }
     },
-    {name: 'structure-menu'},
+    /* {name: 'structure-menu'}, */
     {
       name: 'project-info',
       options: {
@@ -50,7 +50,7 @@ export default {
     {name: 'project-users', layout: {height: 'auto'}},
     {
       name: 'document-list',
-      options: {title: 'Recent projects', order: '_createdAt desc', types: ['project']},
+      options: {title: 'Recent projects', order: '_createdAt desc', types: ['movie']},
       layout: {width: 'medium'}
     }
   ]

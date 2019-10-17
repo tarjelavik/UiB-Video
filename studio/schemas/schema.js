@@ -1,41 +1,42 @@
 // First, we must import the schema creator
 import createSchema from 'part:@sanity/base/schema-creator'
-
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
-// Document types
-import category from './documents/category'
-import person from './documents/person'
-import project from './documents/project'
-import siteSettings from './documents/siteSettings'
-
-// Object types
-import bioPortableText from './objects/bioPortableText'
-import figure from './objects/figure'
-import projectMember from './objects/projectMember'
-import projectPortableText from './objects/projectPortableText'
-import simplePortableText from './objects/simplePortableText'
+// We import object and document schemas
+import blockContent from './blockContent'
+import crewMember from './crewMember'
+import castMember from './castMember'
+import movie from './movie'
+import person from './person'
+import plotSummary from './plotSummary'
+import plotSummaries from './plotSummaries'
+import organization from './organization'
+import place from './place'
+import format from './format'
+import tape from './tape'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
-  name: 'portfolio',
-  // Then proceed to concatenate our our document type
+  name: 'default',
+  // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
-    // When added to this list, object types can be used as
-    // { type: 'typename' } in other document schemas
-    bioPortableText,
-    figure,
-    projectMember,
-    projectPortableText,
-    simplePortableText,
     // The following are document types which will appear
     // in the studio.
-    category,
+    movie,
+    tape,
     person,
-    project,
-    siteSettings
+    format,
+    place,
+    organization,
+    // When added to this list, object types can be used as
+    // { type: 'typename' } in other document schemas
+    blockContent,
+    plotSummary,
+    plotSummaries,
+    castMember,
+    crewMember
   ])
 })
