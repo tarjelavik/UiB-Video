@@ -15,6 +15,14 @@ module.exports = {
     author: `@tarjelavik`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-kaltura',
+      options: {
+        token: process.env.GATSBY_KALTURA_TOKEN,
+        userid: process.env.GATSBY_KALTURA_USERID,
+        partnerid: process.env.GATSBY_KALTURA_PARTNERID
+      }
+    },
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     {
