@@ -19,8 +19,8 @@ module.exports = {
       resolve: 'gatsby-source-kaltura',
       options: {
         token: process.env.GATSBY_KALTURA_TOKEN,
-        userid: process.env.GATSBY_KALTURA_USERID,
-        partnerid: process.env.GATSBY_KALTURA_PARTNERID
+        userid: 'tarje.lavik@uib.no',
+        partnerid: '2489382'
       }
     },
     'gatsby-plugin-postcss',
