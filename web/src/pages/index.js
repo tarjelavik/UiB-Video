@@ -39,6 +39,12 @@ const IndexPage = ({data}) => (
         <h3>{data.allVideoproduksjonDigitaliseringTivoliCsv.totalCount}</h3>
         </div>
     </Link>
+    <Link to="/kaltura">
+      <div className={style.countCard} style={{ backgroundColor: `#dbbf48` }}>
+        <h2>MAM</h2>
+        <h3>{data.allKaltura.totalCount}</h3>
+        </div>
+    </Link>
   </Layout>
 )
 
@@ -54,6 +60,9 @@ export const query = graphql`
       totalCount
     }
     allYoutubeVideo {
+      totalCount
+    }
+    allKaltura {
       totalCount
     }
   }
