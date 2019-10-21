@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "gatsby-source-kaltura",
+  "version": "0.0.1",
+  "author": "Tarje Sælen Lavik <tarje.lavik@uib.no>",
+  "scripts": {
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+  }
+}
