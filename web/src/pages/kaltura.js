@@ -14,7 +14,7 @@ const KalturaPage = ({ data }) => (
       {data.allKaltura.nodes.map((node, index) => (
         <div style={{ paddingBottom: `1em`, width: `100%`, display: `flex`, alignItems: `flex-start`}} key={index}>
           <div style={{alignSelf: `flex-start`, width: `40%`}}>
-            <img style={{ width: `100%`}}  src={node.thumbnailUrl} alt={node.name} />
+            <img style={{ width: `100%`}} src={node.thumbnailUrl} alt={node.name} />
             <div>
               <ul>
                 <li>Kanal: {node.categories}</li>
