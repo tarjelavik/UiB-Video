@@ -28,9 +28,11 @@
     "gatsby-transformer-csv": "^2.1.14",
     "gatsby-transformer-sharp": "^2.2.23",
     "kaltura-client": "^15.7.0",
+    "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-moment": "^0.9.6",
     "react-youtube-lazy": "^1.2.1"
   },
   "devDependencies": {
