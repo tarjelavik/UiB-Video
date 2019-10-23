@@ -1,4 +1,4 @@
-//const {isFuture} = require('date-fns')
+// const {isFuture} = require('date-fns')
 /**
  * Implement Gatsby's Node APIs in this file.
  *
@@ -152,11 +152,12 @@ async function createProjectPages (graphql, actions, reporter) {
   const vimeo = (result.data.vimeo || {}).edges || []
   const tivoli = (result.data.tivoli || {}).edges || []
   const mastertape = (result.data.mastertape || {}).edges || []
+  const kaltura = (result.data.kaltura || {}).edges || []
 
   sanity
     .forEach(edge => {
       const id = edge.node.id
-      //const slug = edge.node.slug.current
+      // const slug = edge.node.slug.current
       const path = `/sanity/${id}/`
 
       reporter.info(`Creating project page: ${path}`)
@@ -171,7 +172,7 @@ async function createProjectPages (graphql, actions, reporter) {
   youtube
     .forEach(edge => {
       const id = edge.node.videoId
-      //const slug = edge.node.slug.current
+      // const slug = edge.node.slug.current
       const path = `/youtube/${id}/`
 
       reporter.info(`Creating project page: ${path}`)
@@ -186,7 +187,7 @@ async function createProjectPages (graphql, actions, reporter) {
   vimeo
     .forEach(edge => {
       const id = edge.node.id
-      //const slug = edge.node.slug.current
+      // const slug = edge.node.slug.current
       const path = `/vimeo/${id}/`
 
       reporter.info(`Creating project page: ${path}`)
@@ -201,7 +202,7 @@ async function createProjectPages (graphql, actions, reporter) {
   mastertape
     .forEach(edge => {
       const id = edge.node.id
-      //const slug = edge.node.slug.current
+      // const slug = edge.node.slug.current
       const path = `/mastertape/${id}/`
 
       reporter.info(`Creating project page: ${path}`)
@@ -216,7 +217,7 @@ async function createProjectPages (graphql, actions, reporter) {
   tivoli
     .forEach(edge => {
       const id = edge.node.id
-      //const slug = edge.node.slug.current
+      // const slug = edge.node.slug.current
       const path = `/tivoli/${id}/`
 
       reporter.info(`Creating project page: ${path}`)
@@ -224,6 +225,21 @@ async function createProjectPages (graphql, actions, reporter) {
       createPage({
         path,
         component: require.resolve('./src/templates/tivoli.js'),
+        context: {edge}
+      })
+    })
+
+  kaltura
+    .forEach(edge => {
+      const id = edge.node.rootEntryId
+      // const slug = edge.node.slug.current
+      const path = `/kaltura/${id}/`
+
+      reporter.info(`Creating project page: ${path}`)
+
+      createPage({
+        path,
+        component: require.resolve('./src/templates/kaltura.js'),
         context: {edge}
       })
     })
