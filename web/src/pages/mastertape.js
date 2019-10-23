@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -27,7 +27,7 @@ const MastertapePage = ({ data }) => (
       </tr>
       {data.allVideoproduksjonDigitaliseringMastertapeCsv.nodes.map((node, index) => (
         <tr key={index}>
-          <td>{node.Tape_nr}</td>
+          <td><Link to={`/mastertape/${node.Tape_nr}`}>{node.Tape_nr}</Link></td>
           <td>{node.Programtittel}</td>
           <td>{node.Innhold}</td>
           <td>{node.Produsent}</td>
@@ -50,7 +50,7 @@ export default MastertapePage
 
 export const data = graphql`
 query mastertape {
-  allVideoproduksjonDigitaliseringMastertapeCsv(sort: {fields: Dato, order: DESC}) {
+  allVideoproduksjonDigitaliseringMastertapeCsv(sort: {fields: Tape_nr, order: DESC}) {
     nodes {
       Tape_nr
       Programtittel

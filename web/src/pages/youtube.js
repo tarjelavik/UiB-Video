@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql , Link} from "gatsby"
 import ReactYoutube from "react-youtube-lazy"
 
 import Layout from "../components/layout"
@@ -15,19 +15,16 @@ const YouTubePage = ({ data }) => (
       {data.allYoutubeVideo.nodes.map((node, index) => (
         <div style={{ paddingBottom: `1em`, width: `100%`, display: `flex`, alignItems: `flex-start`}} key={index}>
           <div style={{alignSelf: `flex-start`, width: `40%`}}>
-            <ReactYoutube videoID={node.videoId} width={360} height={250} lazyLoad="true"/>
-            <div>
-              <ul>
+            <Link to={`/youtube/${node.videoId}`}><img style={{ width: `300px`}} src={node.localThumbnail.childImageSharp.fluid.src} alt={node.title} /></Link>
+          </div>
+          <div style={{ paddingLeft: `1em`, width: `60%`}}>
+            <h2><Link to={`/youtube/${node.videoId}`}>{node.title}</Link></h2>
+            <p>{node.description}</p>
+            <ul>
                 <li>Kanal: {node.channelTitle}</li>
                 <li>{node.publishedAt}</li>
                 <li>ID: <a href={`https://www.youtube.com/watch?v=${node.videoId}`}>{node.videoId}</a></li>
               </ul>
-            </div>
-          </div>
-          {/* <img style={{ width: `300px`}} src={node.localThumbnail.childImageSharp.fluid.src} alt={node.title} /> */}
-          <div style={{ paddingLeft: `1em`, width: `60%`}}>
-            <h2><a href={`https://www.youtube.com/watch?v=${node.videoId}`}>{node.title}</a></h2>
-            <p>{node.description}</p>
           </div>
         </div>
       ))}

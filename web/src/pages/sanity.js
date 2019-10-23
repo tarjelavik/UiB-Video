@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import BlockContent from "@sanity/block-content-to-react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -14,7 +14,7 @@ const SanityPage = ({ data }) => (
       {data.allSanityMovie.nodes.map((node, index) => (
         <div style={{ paddingBottom: `1em`, width: `100%`, display: `flex`, alignItems: `flex-start`}} key={index}>
           <div style={{ paddingLeft: `1em`}}>
-            <h2>{node.title} / {node.identifier}</h2>
+            <h2><Link to={`/sanity/${node.id}`}>{node.title} / {node.identifier}</Link></h2>
             <BlockContent blocks={node._rawOverview} />
             {node.crewMembers.map((member, index) => (
               <p key={index}>{member.person.name} / {member.job}</p>

@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -31,7 +31,7 @@ const TivoliPage = ({ data }) => (
       </tr>
       {data.allVideoproduksjonDigitaliseringTivoliCsv.nodes.map((node, index) => (
         <tr key={index}>
-          <td>{node.Ref}</td>
+          <td><Link to={`/tivoli/${node.Ref}`}>{node.Ref}</Link></td>
           <td>{node.Programtittel}</td>
           <td>{node.Innhold}</td>
           <td>{node.Produsent_Regi}</td>
