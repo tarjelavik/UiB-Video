@@ -15,7 +15,7 @@ const TivoliPage = ({ data }) => (
         <th>Ref</th>
         <th>Programtittel</th>
         <th>Innhold</th>
-        <th>Produsent_Regi</th>
+        {/* <th>Produsent_Regi</th>
         <th>Personer</th>
         <th>Oppdragsgiver</th>
         <th>Rettigheter</th>
@@ -27,14 +27,14 @@ const TivoliPage = ({ data }) => (
         <th>Opptaksted</th>
         <th>Emne</th>
         <th>Arkivert</th>
-        <th>Arkivert_Billy</th>
+        <th>Arkivert_Billy</th> */}
       </tr>
       {data.allVideoproduksjonDigitaliseringTivoliCsv.nodes.map((node, index) => (
         <tr key={index}>
-          <td><Link to={`/tivoli/${node.Ref}`}>{node.Ref}</Link></td>
+          <td><Link to={`/tivoli/${node.id}`}>{node.Ref}</Link></td>
           <td>{node.Programtittel}</td>
           <td>{node.Innhold}</td>
-          <td>{node.Produsent_Regi}</td>
+          {/* <td>{node.Produsent_Regi}</td>
           <td>{node.Personer}</td>
           <td>{node.Oppdragsgiver}</td>
           <td>{node.Rettigheter}</td>
@@ -46,7 +46,7 @@ const TivoliPage = ({ data }) => (
           <td>{node.Opptaksted}</td>
           <td>{node.Emne}</td>
           <td>{node.Arkivert}</td>
-          <td>{node.Arkivert_Billy}</td>
+          <td>{node.Arkivert_Billy}</td> */}
         </tr>
       ))}
     </table>
@@ -76,6 +76,7 @@ query tivoli {
       Emne
       Arkivert
       Arkivert_Billy
+      id
     }
     totalCount
   }

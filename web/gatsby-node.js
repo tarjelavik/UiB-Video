@@ -200,7 +200,7 @@ async function createProjectPages (graphql, actions, reporter) {
 
   mastertape
     .forEach(edge => {
-      const id = edge.node.Tape_nr
+      const id = edge.node.id
       //const slug = edge.node.slug.current
       const path = `/mastertape/${id}/`
 
@@ -215,7 +215,7 @@ async function createProjectPages (graphql, actions, reporter) {
 
   tivoli
     .forEach(edge => {
-      const id = edge.node.Ref
+      const id = edge.node.id
       //const slug = edge.node.slug.current
       const path = `/tivoli/${id}/`
 

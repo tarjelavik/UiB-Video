@@ -15,7 +15,7 @@ const MastertapePage = ({ data }) => (
         <th>Tape_nr</th>
         <th>Programtittel</th>
         <th>Innhold</th>
-        <th>Produsent</th>
+        {/* <th>Produsent</th>
         <th>Personer</th>
         <th>Oppdragsgiver</th>
         <th>Rettigheter</th>
@@ -23,14 +23,14 @@ const MastertapePage = ({ data }) => (
         <th>Format</th>
         <th>Generasjon</th>
         <th>Dato</th>
-        <th>Merknader</th>
+        <th>Merknader</th> */}
       </tr>
       {data.allVideoproduksjonDigitaliseringMastertapeCsv.nodes.map((node, index) => (
         <tr key={index}>
-          <td><Link to={`/mastertape/${node.Tape_nr}`}>{node.Tape_nr}</Link></td>
+          <td><Link to={`/mastertape/${node.id}`}>{node.Tape_nr}</Link></td>
           <td>{node.Programtittel}</td>
           <td>{node.Innhold}</td>
-          <td>{node.Produsent}</td>
+          {/* <td>{node.Produsent}</td>
           <td>{node.Personer}</td>
           <td>{node.Oppdragsgiver}</td>
           <td>{node.Rettigheter}</td>
@@ -38,7 +38,7 @@ const MastertapePage = ({ data }) => (
           <td>{node.Format}</td>
           <td>{node.Generasjon}</td>
           <td>{node.Dato}</td>
-          <td>{node.Merknader}</td>
+          <td>{node.Merknader}</td> */}
         </tr>
       ))}
     </table>
@@ -64,6 +64,7 @@ query mastertape {
       Generasjon
       Dato
       Merknader
+      id
     }
     totalCount
   }
