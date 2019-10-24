@@ -20,6 +20,7 @@ async function createProjectPages (graphql, actions, reporter) {
           categories
           createdAt
           description
+          thumbnailUrl
           id
         }
       }
