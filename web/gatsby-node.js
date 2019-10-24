@@ -161,7 +161,7 @@ async function createProjectPages (graphql, actions, reporter) {
       // const slug = edge.node.slug.current
       const path = `/sanity/${id}/`
 
-      reporter.info(`Creating project page: ${path}`)
+      // reporter.info(`Creating project page: ${path}`)
 
       createPage({
         path,
@@ -176,7 +176,7 @@ async function createProjectPages (graphql, actions, reporter) {
       // const slug = edge.node.slug.current
       const path = `/youtube/${id}/`
 
-      reporter.info(`Creating project page: ${path}`)
+      // reporter.info(`Creating project page: ${path}`)
 
       createPage({
         path,
@@ -191,7 +191,7 @@ async function createProjectPages (graphql, actions, reporter) {
       // const slug = edge.node.slug.current
       const path = `/vimeo/${id}/`
 
-      reporter.info(`Creating project page: ${path}`)
+      // reporter.info(`Creating project page: ${path}`)
 
       createPage({
         path,
@@ -206,7 +206,7 @@ async function createProjectPages (graphql, actions, reporter) {
       // const slug = edge.node.slug.current
       const path = `/mastertape/${id}/`
 
-      reporter.info(`Creating project page: ${path}`)
+      // reporter.info(`Creating project page: ${path}`)
 
       createPage({
         path,
@@ -221,7 +221,7 @@ async function createProjectPages (graphql, actions, reporter) {
       // const slug = edge.node.slug.current
       const path = `/tivoli/${id}/`
 
-      reporter.info(`Creating project page: ${path}`)
+      // reporter.info(`Creating project page: ${path}`)
 
       createPage({
         path,
