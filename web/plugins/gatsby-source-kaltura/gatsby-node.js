@@ -5,7 +5,7 @@ const client = new kaltura.Client(config)
 
 const type = kaltura.enums.SessionType.ADMIN
 const expiry = 86400
-const privileges = 'MediaSpace'
+
 config.serviceUrl = 'https://www.kaltura.com'
 
 exports.sourceNodes = async ({actions, createNodeId, createContentDigest}, pluginOptions) => {
@@ -15,6 +15,8 @@ exports.sourceNodes = async ({actions, createNodeId, createContentDigest}, plugi
   let token = pluginOptions.token
   let userid = pluginOptions.userid
   let partnerid = pluginOptions.partnerid
+  let pageSize = pluginOptions.pageSize
+  let privileges = pluginOptions.privileges
 
   function getdata (req, result) {
     return new Promise((resolve, reject) => {
@@ -31,9 +33,9 @@ exports.sourceNodes = async ({actions, createNodeId, createContentDigest}, plugi
 
           let filter = new kaltura.objects.MediaEntryFilter()
           let pager = new kaltura.objects.FilterPager()
-          pager.pageSize = 100
+          pager.pageSize = pageSize
 
-          kaltura.services.media.listAction(filter)
+          kaltura.services.media.listAction(filter, pager)
             .execute(client)
             .then(result => {
               resolve(result)

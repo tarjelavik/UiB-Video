@@ -20,7 +20,9 @@ module.exports = {
       options: {
         token: process.env.GATSBY_KALTURA_TOKEN,
         userid: 'tarje.lavik@uib.no',
-        partnerid: '2489382'
+        partnerid: '2489382',
+        pageSize: 100,
+        privileges: ''
       }
     },
     'gatsby-plugin-postcss',

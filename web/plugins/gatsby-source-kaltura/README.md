@@ -2,7 +2,7 @@
 
 GATSBY_KALTURA_TOKEN
 
-```json
+```js
 module.exports = {
   plugins: [
     {
