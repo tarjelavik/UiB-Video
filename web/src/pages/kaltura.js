@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Moment from 'react-moment';
 
 import Layout from "../components/layout"
@@ -14,7 +14,7 @@ const KalturaPage = ({ data }) => (
       {data.allKaltura.nodes.map((node, index) => (
         <div style={{ paddingBottom: `1em`, width: `100%`, display: `flex`, alignItems: `flex-start`}} key={index}>
           <div style={{alignSelf: `flex-start`, width: `40%`}}>
-            <img style={{ width: `100%`}} src={node.thumbnailUrl} alt={node.name} />
+            <Link to={`/kaltura/${node.rootEntryId}`}><img style={{ width: `100%`}} src={node.thumbnailUrl} alt={node.name} /></Link>
             <div>
               <ul>
                 <li>Kanal: {node.categories}</li>
@@ -25,7 +25,7 @@ const KalturaPage = ({ data }) => (
           </div>
           {/* <img style={{ width: `300px`}} src={node.localThumbnail.childImageSharp.fluid.src} alt={node.title} /> */}
           <div style={{ width: `60%`, paddingLeft: `1em`}}>
-            <h2>{node.name}</h2>
+            <h2><Link to={`/kaltura/${node.rootEntryId}`}>{node.name}</Link></h2>
             <p>{node.description}</p>
             {node.tags.split(', ').map((tag) => <span style={{border: `solid 1px black`, borderRadius: `4px`, padding: `0 4px`, margin: `4px`, lineHeight: `2`, wordBreak: `keep-all`, display: `inline-block`}} key={tag}>{tag}</span>)}
           </div>
@@ -39,7 +39,7 @@ export default KalturaPage
 
 export const data = graphql`
 {
-  allKaltura(sort: {fields: rootEntryId}) {
+  allKaltura {
     nodes {
       rootEntryId
       name

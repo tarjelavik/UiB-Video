@@ -9,7 +9,7 @@ async function createProjectPages (graphql, actions, reporter) {
   const {createPage} = actions
   const result = await graphql(`
   {
-    kaltura: allKaltura(sort: {fields: rootEntryId}) {
+    kaltura: allKaltura {
       totalCount
       edges {
         node {

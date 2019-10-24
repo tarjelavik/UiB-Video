@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import Vimeo from "@u-wave/react-vimeo";
 import Moment from "react-moment"
 
 export default ({ pageContext: { edge } }) => (
