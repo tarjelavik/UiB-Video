@@ -1,22 +1,22 @@
-const kaltura = require('kaltura-client');
+const kaltura = require('kaltura-client')
 
-const config = new kaltura.Configuration();
-const client = new kaltura.Client(config);
+const config = new kaltura.Configuration()
+const client = new kaltura.Client(config)
 
-const type = kaltura.enums.SessionType.ADMIN;
-const expiry = 86400;
-const privileges = "MediaSpace";
-config.serviceUrl = 'https://www.kaltura.com';
+const type = kaltura.enums.SessionType.ADMIN
+const expiry = 86400
+const privileges = 'MediaSpace'
+config.serviceUrl = 'https://www.kaltura.com'
 
-exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }, pluginOptions) => {
-  const { createNode } = actions
+exports.sourceNodes = async ({actions, createNodeId, createContentDigest}, pluginOptions) => {
+  const {createNode} = actions
   // Create nodes here, generally by downloading data
   // from a remote API.
   let token = pluginOptions.token
   let userid = pluginOptions.userid
   let partnerid = pluginOptions.partnerid
 
-  function getdata(req, result) {
+  function getdata (req, result) {
     return new Promise((resolve, reject) => {
       kaltura.services.session.start(
         token,
@@ -26,24 +26,24 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }, plu
         expiry,
         privileges)
         .completion((success, ks) => {
-          if (!success) throw new Error(ks.message);
-          client.setKs(ks);
-          
-          let filter = new kaltura.objects.MediaEntryFilter();
-          let pager = new kaltura.objects.FilterPager();
-          pager.pageSize = 100;
-          
+          if (!success) throw new Error(ks.message)
+          client.setKs(ks)
+
+          let filter = new kaltura.objects.MediaEntryFilter()
+          let pager = new kaltura.objects.FilterPager()
+          pager.pageSize = 100
+
           kaltura.services.media.listAction(filter)
-          .execute(client)
-          .then(result => {
-            resolve(result)
-          });
+            .execute(client)
+            .then(result => {
+              resolve(result)
+            })
         })
-        .execute(client);
-      })
-    };
-  
-  let data = await getdata();
+        .execute(client)
+    })
+  };
+
+  let data = await getdata()
 
   // Process data into nodes.
   data.objects.forEach(item => {
@@ -52,15 +52,14 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }, plu
       parent: null,
       children: [],
       internal: {
-        type: "Kaltura",
+        type: 'Kaltura',
         content: JSON.stringify(item),
-        contentDigest: createContentDigest(item),
-      },
+        contentDigest: createContentDigest(item)
+      }
     }
 
     const node = Object.assign({}, item, nodeMetadata)
     createNode(node)
   })
   // We're done, return.
-  return
 }

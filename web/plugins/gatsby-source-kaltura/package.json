@@ -7,7 +7,7 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "axios": "^0.19.0"
+    "kaltura-client": "^15.7.0"
   },
   "devDependencies": {
   }
