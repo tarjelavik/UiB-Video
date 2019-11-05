@@ -17,6 +17,11 @@ export default {
       type: 'string'
     },
     {
+      name: 'source',
+      title: 'Kilde',
+      type: 'string'
+    },
+    {
       name: 'created',
       title: 'Date of creation',
       type: 'datetime'
