@@ -54,7 +54,7 @@ export const data = graphql`
         }
       }
       created
-      client {
+      employer {
         ... on SanityPerson {
           id
           name
