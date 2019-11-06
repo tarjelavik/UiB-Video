@@ -28,7 +28,7 @@ const SanityPage = ({ data }) => (
 
 export default SanityPage
 
-export const data = graphql`
+export const data = graphql`cd 
 {
   allSanityMovie {
     nodes {

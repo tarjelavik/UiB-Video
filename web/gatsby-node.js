@@ -129,7 +129,7 @@ async function createProjectPages (graphql, actions, reporter) {
             }
           }
           created
-          client {
+          employer {
             ... on SanityPerson {
               id
               name
