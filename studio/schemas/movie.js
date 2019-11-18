@@ -17,6 +17,11 @@ export default {
       type: 'string'
     },
     {
+      name: 'source',
+      title: 'Kilde',
+      type: 'string'
+    },
+    {
       name: 'created',
       title: 'Date of creation',
       type: 'datetime'
@@ -66,7 +71,7 @@ export default {
       ]
     },
     {
-      name: 'client',
+      name: 'employer',
       title: 'Oppdragsgiver',
       type: 'array',
       of: [
@@ -75,6 +80,75 @@ export default {
           to: [
             {type: 'person'},
             {type: 'organization'}
+          ]
+        }
+      ]
+    },
+    {
+      name: 'audioTechnician',
+      title: 'Lydteknikker',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [
+            { type: 'person' },
+            { type: 'organization' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'directorOfPhotography',
+      title: 'Foto',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [
+            { type: 'person' },
+            { type: 'organization' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'producerOrDirector',
+      title: 'Produsent/Regi',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [
+            { type: 'person' },
+            { type: 'organization' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'shownPerson',
+      title: 'Vist person',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [
+            { type: 'person' },
+            { type: 'organization' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'placeOfRecording',
+      title: 'Opptakssted',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: [
+            { type: 'place' },
           ]
         }
       ]
