@@ -87,7 +87,7 @@ export default {
       media: 'poster',
       identifier: 'identifier'
     },
-    prepare(selection) {
+    prepare (selection) {
       const year = selection.date && selection.date.split('-')[0]
 
       return {
