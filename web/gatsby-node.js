@@ -21,6 +21,7 @@ async function createProjectPages (graphql, actions, reporter) {
           createdAt
           description
           thumbnailUrl
+          dataUrl
           id
         }
       }
