@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql , Link} from "gatsby"
-import ReactYoutube from "react-youtube-lazy"
+// import ReactYoutube from "react-youtube-lazy"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -14,9 +14,9 @@ const YouTubePage = ({ data }) => (
     <div style={{ display: `flex`, flexDirection: `column`}}>
       {data.allYoutubeVideo.nodes.map((node, index) => (
         <div style={{ paddingBottom: `1em`, width: `100%`, display: `flex`, alignItems: `flex-start`}} key={index}>
-          <div style={{alignSelf: `flex-start`, width: `40%`}}>
+          {node.localThumbnail && node.localThumbnail.childImageSharp.fluid.src && (<div style={{alignSelf: `flex-start`, width: `40%`}}>
             <Link to={`/youtube/${node.videoId}`}><img style={{ width: `300px`}} src={node.localThumbnail.childImageSharp.fluid.src} alt={node.title} /></Link>
-          </div>
+          </div>)}
           <div style={{ paddingLeft: `1em`, width: `60%`}}>
             <h2><Link to={`/youtube/${node.videoId}`}>{node.title}</Link></h2>
             <p>{node.description}</p>

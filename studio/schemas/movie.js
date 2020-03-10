@@ -92,8 +92,8 @@ export default {
         {
           type: 'reference',
           to: [
-            { type: 'person' },
-            { type: 'organization' }
+            {type: 'person'},
+            {type: 'organization'}
           ]
         }
       ]
@@ -106,8 +106,8 @@ export default {
         {
           type: 'reference',
           to: [
-            { type: 'person' },
-            { type: 'organization' }
+            {type: 'person'},
+            {type: 'organization'}
           ]
         }
       ]
@@ -120,8 +120,8 @@ export default {
         {
           type: 'reference',
           to: [
-            { type: 'person' },
-            { type: 'organization' }
+            {type: 'person'},
+            {type: 'organization'}
           ]
         }
       ]
@@ -134,8 +134,8 @@ export default {
         {
           type: 'reference',
           to: [
-            { type: 'person' },
-            { type: 'organization' }
+            {type: 'person'},
+            {type: 'organization'}
           ]
         }
       ]
@@ -148,7 +148,7 @@ export default {
         {
           type: 'reference',
           to: [
-            { type: 'place' },
+            {type: 'place'}
           ]
         }
       ]
@@ -161,7 +161,7 @@ export default {
       media: 'poster',
       identifier: 'identifier'
     },
-    prepare(selection) {
+    prepare (selection) {
       const year = selection.date && selection.date.split('-')[0]
 
       return {
