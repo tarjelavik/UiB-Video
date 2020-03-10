@@ -104,7 +104,7 @@ async function createProjectPages (graphql, actions, reporter) {
         }
       }
     }
-    sanity: allSanityMovie {
+    sanityMovies: allSanityMovie {
       edges {
         node {
           title
@@ -148,24 +148,24 @@ async function createProjectPages (graphql, actions, reporter) {
 
   if (result.errors) throw result.errors
 
-  const sanity = (result.data.sanity || {}).edges || []
+  const sanityMovies = (result.data.sanityMovies || {}).edges || []
   const youtube = (result.data.youtube || {}).edges || []
   const vimeo = (result.data.vimeo || {}).edges || []
   const tivoli = (result.data.tivoli || {}).edges || []
   const mastertape = (result.data.mastertape || {}).edges || []
   const kaltura = (result.data.kaltura || {}).edges || []
 
-  sanity
+  sanityMovies
     .forEach(edge => {
       const id = edge.node.id
       // const slug = edge.node.slug.current
-      const path = `/sanity/${id}/`
+      const path = `/movies/${id}/`
 
       // reporter.info(`Creating project page: ${path}`)
 
       createPage({
         path,
-        component: require.resolve('./src/templates/sanity.js'),
+        component: require.resolve('./src/templates/sanityMovies.js'),
         context: {edge}
       })
     })

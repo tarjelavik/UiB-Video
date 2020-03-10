@@ -20,8 +20,8 @@ module.exports = {
       options: {
         token: process.env.GATSBY_KALTURA_TOKEN,
         userid: 'tarje.lavik@uib.no',
-        partnerid: '2489382',
-        pageSize: 100,
+        partnerid: '355',
+        pageSize: 1000,
         privileges: ''
       }
     },

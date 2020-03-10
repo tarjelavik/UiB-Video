@@ -6,7 +6,7 @@ const client = new kaltura.Client(config)
 const type = kaltura.enums.SessionType.ADMIN
 const expiry = 86400
 
-config.serviceUrl = 'https://www.kaltura.com'
+config.serviceUrl = 'https://api.kaltura.nordu.net'
 
 exports.sourceNodes = async ({actions, createNodeId, createContentDigest}, pluginOptions) => {
   const {createNode} = actions

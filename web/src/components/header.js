@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => (
         <ListLink to="/vimeo">Vimeo</ListLink>
         <ListLink to="/tivoli">Tivoli</ListLink>
         <ListLink to="/mastertape">Mastertape</ListLink>
-        <ListLink to="/sanity">Sanity (test)</ListLink>
+        <ListLink to="/movies">Sanity (test)</ListLink>
         <ListLink to="/kaltura">Kaltura (test)</ListLink>
       </ul>
     </div>

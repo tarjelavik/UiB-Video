@@ -26,8 +26,8 @@ const KalturaPage = ({ data }) => (
           {/* <img style={{ width: `300px`}} src={node.localThumbnail.childImageSharp.fluid.src} alt={node.title} /> */}
           <div style={{ width: `60%`, paddingLeft: `1em`}}>
             <h2><Link to={`/kaltura/${node.rootEntryId}`}>{node.name}</Link></h2>
-            <p>{node.description}</p>
-            {node.tags.split(', ').map((tag) => <span style={{border: `solid 1px black`, borderRadius: `4px`, padding: `0 4px`, margin: `4px`, lineHeight: `2`, wordBreak: `keep-all`, display: `inline-block`}} key={tag}>{tag}</span>)}
+            <p>{node.description ? node.description : '' }</p>
+            {node.tags ? node.tags.split(', ').map((tag) => <span style={{border: `solid 1px black`, borderRadius: `4px`, padding: `0 4px`, margin: `4px`, lineHeight: `2`, wordBreak: `keep-all`, display: `inline-block`}} key={tag}>{tag}</span>): ''}
           </div>
         </div>
       ))}
