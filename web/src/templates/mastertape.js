@@ -8,22 +8,22 @@ export default ({ pageContext: { edge } }) => (
   <SEO title="Mastertape" />
   
   <div style={{ maxWidth: `960px`, overflowX: `scroll`, display: `block`}}>
-    <h1>{edge.node.Programtittel}</h1>
-    <h2>Tape_nr: {edge.node.Tape_nr}</h2>
+    <h1>{edge.node.title}</h1>
+    <h2>Tape_nr: {edge.node.identifier}</h2>
     <p>{edge.node.Dato}</p>
     <p>{edge.node.Innhold}</p>
     <ul>
-      <li>Produsent: {edge.node.Produsent}</li>
-      <li>Personer: {edge.node.Personer}</li>
-      <li>Oppdragsgiver: {edge.node.Oppdragsgiver}</li>
-      <li>Rettigheter: {edge.node.Rettigheter}</li>
+      <li>Produsent: {edge.node.producer}</li>
+      <li>Personer: {edge.node.person}</li>
+      <li>Oppdragsgiver: {edge.node.client}</li>
+      <li>Rettigheter: {edge.node.rightsholder}</li>
     </ul>
     <ul>
-      <li>{edge.node.Tid}</li>
-      <li>{edge.node.Format}</li>
-      <li>{edge.node.Generasjon}</li>
+      <li>{edge.node.duration}</li>
+      <li>{edge.node.format}</li>
+      <li>{edge.node.generation}</li>
     </ul>
-    <p>{edge.node.Merknader}</p>
+    <p>{edge.node.description}</p>
   </div>  
 </Layout>
 )

@@ -61,47 +61,54 @@ async function createProjectPages (graphql, actions, reporter) {
         }
       }
     }
-    tivoli: allVideoproduksjonDigitaliseringTivoliCsv {
+    tivoli: allVideoproduksjonTivoliCsv {
       totalCount
       edges {
         node {
-          Arkivert
-          Arkivert_Billy
-          Emne
-          Format
-          Foto
-          Innhold
-          Lengde
-          Lyd
-          Oppdragsgiver
-          Opptaksted
-          Personer
-          Prod_dato
-          Produsent_Regi
-          Programtittel
-          Ref
-          Rettigheter
           id
+          accesslevel
+          tags
+          archivedDate
+          audioTechnician
+          client
+          description
+          directorOfPhotography
+          duration
+          format
+          identifier
+          internalNote
+          location
+          mediaType
+          person
+          producer
+          productionPeriod
+          recordedDate
+          rightsholder
+          source
+          title
         }
       }
     }
-    mastertape:allVideoproduksjonDigitaliseringMastertapeCsv {
+    mastertape: allVideoproduksjonMastertapeCsv {
       totalCount
       edges {
         node {
-          Dato
-          Format
-          Generasjon
-          Innhold
-          Merknader
-          Oppdragsgiver
-          Personer
-          Produsent
-          Programtittel
-          Rettigheter
-          Tape_nr
-          Tid
+          accessLevel
+          client
+          description
+          digitizedFromFormat
+          duration
+          generation
           id
+          identifier
+          internalNote
+          mediaType
+          person
+          producer
+          recordedDate
+          rightsholder
+          source
+          title
         }
       }
     }

@@ -30,13 +30,13 @@ const IndexPage = ({data}) => (
     <Link to="/mastertape">
       <div className={style.countCard} style={{ backgroundColor: `#eb91ba` }}>
         <h2>Mastertape</h2>
-        <h3>{data.allVideoproduksjonDigitaliseringMastertapeCsv.totalCount}</h3>
+        <h3>{data.allVideoproduksjonMastertapeCsv.totalCount}</h3>
       </div>
     </Link>
     <Link to="/tivoli">
       <div className={style.countCard} style={{ backgroundColor: `#ec6915` }}>
         <h2>Tivoli</h2>
-        <h3>{data.allVideoproduksjonDigitaliseringTivoliCsv.totalCount}</h3>
+        <h3>{data.allVideoproduksjonTivoliCsv.totalCount}</h3>
         </div>
     </Link>
     <Link to="/kaltura">
@@ -50,10 +50,10 @@ const IndexPage = ({data}) => (
 
 export const query = graphql`
   {
-    allVideoproduksjonDigitaliseringTivoliCsv {
+    allVideoproduksjonTivoliCsv {
       totalCount
     }
-    allVideoproduksjonDigitaliseringMastertapeCsv {
+    allVideoproduksjonMastertapeCsv {
       totalCount
     }
     allVimeoVideo {

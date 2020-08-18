@@ -7,25 +7,24 @@ export default ({ pageContext: { edge } }) => (
   <Layout>
     <SEO title="Tivoli" />
               
-    <h1>{edge.node.Programtittel}</h1>
-    <h2>Ref: {edge.node.Ref}</h2>
-    <p>{edge.node.Prod_dato}</p>
-    <p>{edge.node.Innhold}</p>
-    <p>{edge.node.Emne}</p>
-    <p>{edge.node.Opptaksted}</p>
+    <h1>{edge.node.title}</h1>
+    <h2>Ref: {edge.node.identifier}</h2>
+    <p>{edge.node.recordedDate}</p>
+    <p>{edge.node.description}</p>
+    <p>{edge.node.tags}</p>
+    <p>{edge.node.location}</p>
     <ul>
-      <li>Produsent_Regi: {edge.node.Produsent_Regi}</li>
-      <li>Personer: {edge.node.Personer}</li>
-      <li>Oppdragsgiver: {edge.node.Oppdragsgiver}</li>
-      <li>Foto: {edge.node.Foto}</li>
+      <li>Produsent_Regi: {edge.node.producer}</li>
+      <li>Personer: {edge.node.person}</li>
+      <li>Oppdragsgiver: {edge.node.client}</li>
+      <li>Foto: {edge.node.directorOfPhotography}</li>
     </ul>
     <ul>
-      <li>Rettigheter: {edge.node.Rettigheter}</li>
-      <li>Lengde: {edge.node.Lengde}</li>
-      <li>Lyd: {edge.node.Lyd}</li>
-      <li>Format: {edge.node.Format}</li>
-      <li>Arkivert: {edge.node.Arkivert}</li>
-      <li>Arkivert_Billy: {edge.node.Arkivert_Billy}</li>
+      <li>Rettigheter: {edge.node.rightsholder}</li>
+      <li>Lengde: {edge.node.duration}</li>
+      <li>Lyd: {edge.node.audioTechnician}</li>
+      <li>Format: {edge.node.format}</li>
+      <li>Intern note: {edge.node.internalNote}</li>
     </ul>
     
   </Layout>

@@ -8,13 +8,13 @@ import SEO from "../components/seo"
 const MastertapePage = ({ data }) => (
   <Layout>
     <SEO title="Mastertape" />
-    <h1>UiBs Mastertapes / {data.allVideoproduksjonDigitaliseringMastertapeCsv.totalCount}</h1>
+    <h1>UiBs Mastertapes / {data.allVideoproduksjonMastertapeCsv.totalCount}</h1>
     
     <table style={{ maxWidth: `960px`, overflowX: `scroll`, display: `block`}}>
       <tr>
-        <th>Tape_nr</th>
-        <th>Programtittel</th>
-        <th>Innhold</th>
+        <th>identifier</th>
+        <th>title</th>
+        <th>description</th>
         {/* <th>Produsent</th>
         <th>Personer</th>
         <th>Oppdragsgiver</th>
@@ -25,11 +25,11 @@ const MastertapePage = ({ data }) => (
         <th>Dato</th>
         <th>Merknader</th> */}
       </tr>
-      {data.allVideoproduksjonDigitaliseringMastertapeCsv.nodes.map((node, index) => (
+      {data.allVideoproduksjonMastertapeCsv.nodes.map((node, index) => (
         <tr key={index}>
-          <td><Link to={`/mastertape/${node.id}`}>{node.Tape_nr}</Link></td>
-          <td>{node.Programtittel}</td>
-          <td>{node.Innhold}</td>
+          <td><Link to={`/mastertape/${node.id}`}>{node.identifier}</Link></td>
+          <td>{node.title}</td>
+          <td>{node.description}</td>
           {/* <td>{node.Produsent}</td>
           <td>{node.Personer}</td>
           <td>{node.Oppdragsgiver}</td>
@@ -50,21 +50,24 @@ export default MastertapePage
 
 export const data = graphql`
 query mastertape {
-  allVideoproduksjonDigitaliseringMastertapeCsv(sort: {fields: Tape_nr, order: DESC}) {
+  allVideoproduksjonMastertapeCsv(sort: {fields: identifier, order: DESC}) {
     nodes {
-      Tape_nr
-      Programtittel
-      Innhold
-      Produsent
-      Personer
-      Oppdragsgiver
-      Rettigheter
-      Tid
-      Format
-      Generasjon
-      Dato
-      Merknader
+      accessLevel
+      client
+      description
+      digitizedFromFormat
+      duration
+      generation
       id
+      identifier
+      internalNote
+      mediaType
+      person
+      producer
+      recordedDate
+      rightsholder
+      source
+      title
     }
     totalCount
   }

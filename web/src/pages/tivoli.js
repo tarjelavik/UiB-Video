@@ -8,48 +8,33 @@ import SEO from "../components/seo"
 const TivoliPage = ({ data }) => (
   <Layout>
     <SEO title="Tivoli" />
-    <h1>UiBs videoer i Tivoli / {data.allVideoproduksjonDigitaliseringTivoliCsv.totalCount}</h1>
-    
-    <table style={{ maxWidth: `960px`, overflowX: `scroll`, display: `block`}}>
-      <tr>
-        <th>Ref</th>
-        <th>Programtittel</th>
-        <th>Innhold</th>
-        {/* <th>Produsent_Regi</th>
-        <th>Personer</th>
-        <th>Oppdragsgiver</th>
-        <th>Rettigheter</th>
-        <th>Lengde</th>
-        <th>Lyd</th>
-        <th>Format</th>
-        <th>Foto</th>
-        <th>Prod_dato</th>
-        <th>Opptaksted</th>
-        <th>Emne</th>
-        <th>Arkivert</th>
-        <th>Arkivert_Billy</th> */}
-      </tr>
-      {data.allVideoproduksjonDigitaliseringTivoliCsv.nodes.map((node, index) => (
-        <tr key={index}>
-          <td><Link to={`/tivoli/${node.id}`}>{node.Ref}</Link></td>
-          <td>{node.Programtittel}</td>
-          <td>{node.Innhold}</td>
-          {/* <td>{node.Produsent_Regi}</td>
-          <td>{node.Personer}</td>
-          <td>{node.Oppdragsgiver}</td>
-          <td>{node.Rettigheter}</td>
-          <td>{node.Lengde}</td>
-          <td>{node.Lyd}</td>
-          <td>{node.Format}</td>
-          <td>{node.Foto}</td>
-          <td>{node.Prod_dato}</td>
-          <td>{node.Opptaksted}</td>
-          <td>{node.Emne}</td>
-          <td>{node.Arkivert}</td>
-          <td>{node.Arkivert_Billy}</td> */}
-        </tr>
-      ))}
-    </table>
+    <h1>UiBs videoer i Tivoli / {data.allVideoproduksjonTivoliCsv.totalCount}</h1>
+
+    {data.allVideoproduksjonTivoliCsv.nodes.map((node, index) => (
+      <article>
+        <h1>{node.title || "Ingen tittel"}</h1>
+        <p>{node.description}</p>
+        <p>{node.internalNote}</p>
+        <p>{node.accesslevel}</p>
+        <p>{node.archivedDate}</p>
+        <p>{node.audioTechnician}</p>
+        <p>{node.client}</p>
+        <p>{node.directorOfPhotography}</p>
+        <p>{node.duration}</p>
+        <p>{node.format}</p>
+        <p>{node.id}</p>
+        <p>{node.location}</p>
+        <p>{node.mediaType}</p>
+        <p>{node.person}</p>
+        <p>{node.producer}</p>
+        <p>{node.productionPeriod}</p>
+        <p>{node.recordedDate}</p>
+        <p>{node.rightsholder}</p>
+        <p>{node.source}</p>
+        <p>{node.tags}</p>
+        <p>{node.title}</p>
+      </article>
+    ))}
     
   </Layout>
 )
@@ -58,25 +43,29 @@ export default TivoliPage
 
 export const data = graphql`
 query tivoli {
-  allVideoproduksjonDigitaliseringTivoliCsv(sort: {fields: Prod_dato, order: DESC}) {
+  allVideoproduksjonTivoliCsv(sort: {fields: identifier, order: DESC}) {
     nodes {
-      Ref
-      Programtittel
-      Innhold
-      Produsent_Regi
-      Personer
-      Oppdragsgiver
-      Rettigheter
-      Lengde
-      Lyd
-      Format
-      Foto
-      Prod_dato
-      Opptaksted
-      Emne
-      Arkivert
-      Arkivert_Billy
+      accesslevel
+      archivedDate
+      audioTechnician
+      client
+      description
+      directorOfPhotography
+      duration
+      format
       id
+      identifier
+      internalNote
+      location
+      mediaType
+      person
+      producer
+      productionPeriod
+      recordedDate
+      rightsholder
+      source
+      tags
+      title
     }
     totalCount
   }
